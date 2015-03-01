@@ -460,18 +460,9 @@ a.btn.black.outline:hover {
 .section.meeting p a {
   color: #007BC0
 }
-/*
-.section.meeting a.btn {
-  border: 1px solid #333;
-  color: #333;
-}
-.section.meeting a.btn:hover {
-  background: white;
-  color: #333;
 .section.meeting .loading a.btn {
   display: none;
 }
-*/
 .section.meeting p.lg{
   margin-bottom: 10px;
 }
@@ -490,17 +481,6 @@ a.btn.black.outline:hover {
 .section.blog h1 {
   color: #494949;
 }
-/*
-.section.blog a.btn {
-  color: #494949;
-  border-color: #494949;
-  margin-bottom: 20px;
-}
-.section.blog a.btn:hover {
-  background: rgba(122, 181, 214, 0.4);
-  color: #494949
-}
-*/
 
 
 

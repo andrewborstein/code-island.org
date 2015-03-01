@@ -114,10 +114,10 @@ $.ajax({
 
               // Final Variables
               if ( (todayNumber == dateNumber) && (todayMonth == dateMonth) ) { 
-                var prettyDate = 'Tonight at ' + dateTime;                        // If today
+                var prettyDate = 'Tonight @ ' + dateTime + ' at ';               // If today
               } else { 
                 var prettyDate = d_names[dateDay]+', '+m_names[dateMonth]+' '
-                +dateNumber+', '+dateYear+' at '+ dateTime;                       // Otherwise
+                +dateNumber+' @ '+ dateTime+' at ';                              // Otherwise
               }
             
             } else {
