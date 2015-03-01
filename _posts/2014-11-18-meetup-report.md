@@ -7,7 +7,7 @@ We got a bit of a late start, but we covered a lot of ground quickly.
 
 We've got some events coming up, starting in early 2015, that we need to get planning on. First one is the one-year anniversary event in February 2015, and then the National Day of Civic Hacking will happen sometime in late spring. In between, we hear rumblings about a regional event for the many brigades in New England. 
 
-![Shawn Andrews, formerly the RI legislature's social media resource, talking to people about working with that organization](/images/photos/20141118_190929-600.png)
+![Shawn Andrews, formerly the RI legislature's social media resource, talking to people about working with that organization]({{ site.baseurl }}/images/photos/20141118_190929-600.png)
 
 Also, we need to get ready to take over responsibility for maintaining the projects that the [CfA Fellows](http://codeisland.tumblr.com/) created for the RI Department of Education. 
 

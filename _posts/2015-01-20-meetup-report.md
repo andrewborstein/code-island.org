@@ -3,11 +3,7 @@ layout: post
 title: January 2015 Update
 ---
 
-<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-
-{{ page.date | date_to_long_string }}
-
-2015 is off to a great start for Code Island, with two great meetups in January and lots of new faces. If you click over to [our Members page](/members/), you can see who's been contributing to our work. 
+2015 is off to a great start for Code Island, with two great meetups in January and lots of new faces. If you click over to [our Join page]({{ site.baseurl }}/join/), you can see all the members that have been contributing to our work. 
 
 ### Announcements
 
@@ -17,7 +13,7 @@ Starting in February, we're switching our [meetups](http://www.meetup.com/Rhode-
 
 Until next time...
 
-![Look at those hackers hack!](/images/photos/20150120-600.png)
+![Look at those hackers hack!]({{ site.baseurl }}/images/photos/20150120-600.png)
 
 
 
