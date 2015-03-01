@@ -1,7 +1,9 @@
 code-island.org
 ===================
 
-This fork is a redesign of the code-island.org website featuring:
+This fork is a redesign of the code-island.org
+
+New Features:
 - New header style 
 - New Home page style 
 - Font icon social links
