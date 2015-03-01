@@ -126,7 +126,7 @@ img {
 }
 
 .hero {
-  background: #2f3d4a url({{ site.baseurl }}/images/hero-texture-sunset.jpg) no-repeat top center;
+  background: #2f3d4a url(../images/hero-texture-sunset.jpg) no-repeat top center;
 }
 .hero a {
   color: #fedd44;
