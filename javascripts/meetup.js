@@ -73,21 +73,8 @@ $.ajax({
             }
 
             // Date & Time
-
-              // Now
-              var now = new Date;                                                 // Get Today's Date  
-              var todayMonth = now.getMonth()                                     // Month  
-              var todayNumber = now.getDate()                                     // Number  
-              var todayTime = formatAMPM(now)                                     // Time (formatted)
-
-              // Next Event
-              var date = new Date(nextEvent.time)                                 // Get Next Event's Date
-              var dateYear = date.getFullYear()                                   // Year
-              var dateMonth = date.getMonth()                                     // Month
-              var dateDay = date.getDay()                                         // Day
-              var dateNumber = date.getDate()                                     // Number
-              var dateTime = formatAMPM(date)                                     // Time (formatted)
-
+            if (nextEvent.time != undefined) {
+              
               // Formatting
               var m_names = new Array("January", "February", "March",             // Month
               "April", "May", "June", "July", "August", "September", 
@@ -105,6 +92,20 @@ $.ajax({
                 return strTime;
               }
 
+              // Now
+              var now = new Date;                                                 // Get Today's Date  
+              var todayMonth = now.getMonth()                                     // Month  
+              var todayNumber = now.getDate()                                     // Number  
+              var todayTime = formatAMPM(now)                                     // Time (formatted)
+
+              // Next Event
+              var date = new Date(nextEvent.time)                                 // Get Next Event's Date
+              var dateYear = date.getFullYear()                                   // Year
+              var dateMonth = date.getMonth()                                     // Month
+              var dateDay = date.getDay()                                         // Day
+              var dateNumber = date.getDate()                                     // Number
+              var dateTime = formatAMPM(date)                                     // Time (formatted)
+
               // Final Variables
               if ( (todayNumber == dateNumber) && (todayMonth == dateMonth) ) { 
                 var prettyDate = 'Tonight at ' + dateTime;                        // If today
@@ -112,6 +113,10 @@ $.ajax({
                 var prettyDate = d_names[dateDay]+', '+m_names[dateMonth]+' '
                 +dateNumber+', '+dateYear+' at '+ dateTime;                       // Otherwise
               }
+            
+            } else {
+              var prettyDate = 'TBD';
+            }
 
         /*
          *  Do Stuff with the Variables
