@@ -9,6 +9,12 @@ $.ajax({
     crossDomain : true,
     xhrFields: {
         withCredentials: true
+    },
+    beforeSend: function() {
+      $('#meetup').addClass('loading'); // Show loader icon
+    },
+    complete: function() {
+      $('#meetup').removeClass('loading'); // Hide loader icon
     }
 })
     .done(function( xhr, textStatus, response, data, responseJSON ) {

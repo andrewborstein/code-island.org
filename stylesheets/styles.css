@@ -115,6 +115,12 @@ th {
 img {
   max-width:100%;
 }
+.loading #loaderIcon {
+  display: block;
+}
+#loaderIcon {
+  display: none;
+}
 
 /* YOU ARE HERE */
 .about nav .about,
@@ -462,6 +468,8 @@ a.btn.black.outline:hover {
 .section.meeting a.btn:hover {
   background: white;
   color: #333;
+.section.meeting .loading a.btn {
+  display: none;
 }
 */
 .section.meeting p.lg{
