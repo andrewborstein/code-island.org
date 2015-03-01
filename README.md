@@ -11,5 +11,4 @@ This fork is a redesign of the code-island.org
 - Pure CSS & JS mobile-responsive nav menu
 - 'Next Meeting' info pulled via Meetup.com API on Home page
 - 'Contributing Members' section pulled via GitHub.com API on Join page
-- New or revised copy on home, about, and join pages
-- Members page now Join page
+- New or revised copy on Home, About, and Join pages
