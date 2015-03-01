@@ -1,7 +1,7 @@
 code-island.org
 ===================
 
-A redesign of code-island.org
+A redesign/refresh of code-island.org
 
 ### Features:
 - New header style 
