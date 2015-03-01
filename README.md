@@ -13,4 +13,5 @@ This fork is a redesign of the code-island.org
 - 'Contributing Members' list pulled via GitHub.com API on Join page
 - New or revised copy on Home, About, and Join pages
 
-View it live: [andrewborstein.github.io/code-island.org/](http://andrewborstein.github.io/code-island.org/)
+### Live Demo:
+[andrewborstein.github.io/code-island.org](http://andrewborstein.github.io/code-island.org/)
