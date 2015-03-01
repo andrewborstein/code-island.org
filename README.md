@@ -1,4 +1,4 @@
-Code-Island-Website
+Code-Island.org Redesign
 ===================
 
 This fork is a redesign of the code-island.org website featuring:
