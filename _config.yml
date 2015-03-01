@@ -1,8 +1,8 @@
 # Site settings
 title: Code Island
 email: info@code-island.org
-baseurl: "code-island.org" # the subpath of your site, e.g. /blog/
-url: "http://andrewborstein.github.io/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://andrewborstein.github.io/code-island.org" # the base hostname & protocol for your site
 # port: 4001
 # permalink: article/:title
 
